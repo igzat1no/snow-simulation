@@ -3,6 +3,6 @@ SnowSim/dist/
 *.o
 
 .vscode/
-./SnowSim/glfw3/*
-./SnowSim/freeimage/*
-./SnowSim/glfw-3.4/*
+SnowSim/glfw3/*
+SnowSim/freeimage/*
+SnowSim/glfw-3.4/*
