@@ -169,3 +169,8 @@ cython_debug/
 ./SnowSim/glfw3/*
 ./SnowSim/freeimage/*
 ./SnowSim/glfw-3.4/*
+
+.vscode/
+SnowSim/glfw3/
+SnowSim/freeimage/
+SnowSim/glfw-3.4/
