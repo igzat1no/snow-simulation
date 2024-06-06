@@ -10,7 +10,7 @@ void Snow::draw() {
         return;
     }
     glColor3f(112.0 / 255, 86.0 / 255, 151.0 / 255);
-    glPointSize(10.0);
+    glPointSize(5.0);
     glBegin(GL_POINTS);
     for (auto vertex: vertices) {
         float nwv[2] = {vertex.x, vertex.y};
