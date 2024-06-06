@@ -7,7 +7,7 @@ class Points {
 
     Points(): x(0), y(0) {}
     Points(double _x, double _y): x(_x), y(_y) {}
-    Points(Points& ano): x(ano.x), y(ano.y) {}
+    Points(const Points& ano): x(ano.x), y(ano.y) {}
 
 };
 

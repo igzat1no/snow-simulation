@@ -6,12 +6,16 @@
 #include "Points.h"
 
 class Snow {
-    public:
+public:
     std::vector<Points> vertices;
+    bool finished;
 
-    void add_point(Points a) {
-        vertices.push_back(a);
+    Snow() {
+        vertices.clear();
+        finished = false;
     }
+
+    void add_point(Points a);
 
     void draw();
 };
